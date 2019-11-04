@@ -1,0 +1,27 @@
+body {
+    font-family: 'Nanum Barun Gothic';
+    text-align: center;
+}
+ /* S/W개발도제 2-12 지각 체크 */
+h1 {
+    padding-top: 20px;
+}
+
+table {
+    table-layout: fixed;
+    word-break: break-all;
+    border: solid 1px black;
+}
+
+table tr {
+    height: 50px
+}
+
+table th {
+    font-size: 20px;
+}
+
+table td, th {
+    border: solid 1px black;
+    width: 14%;
+}
