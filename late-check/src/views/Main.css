@@ -1,0 +1,27 @@
+body {
+    font-family: 'Nanum Barun Gothic';
+    text-align: center;
+}
+ /* S/W개발도제 2-12 지각 체크 */
+h1 {
+    padding-top: 20px;
+}
+
+/* 메인 페이지 체크 조회 버튼 */
+table {
+    width: 80%;
+    margin: auto; /* 가운데정렬 */
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    height: 10%;
+    /* margin: 10% auto; */
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
