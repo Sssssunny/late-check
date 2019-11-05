@@ -9,10 +9,10 @@ class Main extends Component {
           {/* 체크와 조회 버튼은 css로 디자인적 요소 넣기 */}
           <tr>
             <td>
-              체크
+              <a href="lateCheck.html">체크</a>
             </td>
             <td>
-              조회
+              <a href="lateRead.html">조회</a>
             </td>
           </tr>
         </table>
