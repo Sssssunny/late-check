@@ -20,5 +20,5 @@ class Main extends Component {
     );
   }
 }
-//hhhhhh
+
 export default Main;
