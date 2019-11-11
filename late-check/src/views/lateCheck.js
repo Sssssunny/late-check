@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "../Home.css";
 
 class lateCheck extends Component {
   render() {
