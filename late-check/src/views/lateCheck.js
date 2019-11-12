@@ -10,6 +10,7 @@ const lateCheck = () => {
         <tr>
           <th>학번</th>
           <th>이름</th>
+          <th>정상등교</th>
           {/* 8시 50분 지각과 9시 지각을 동시에
                     체크할 수 없도록 설정해야 함 */}
           <th>8:50</th>
@@ -18,6 +19,9 @@ const lateCheck = () => {
         <tr>
           <td>21201</td>
           <td>김수아</td>
+          <td>
+              <input type="radio" name="late_01" />
+          </td>
           <td>
             <input type="radio" name="late_01" />
           </td>
@@ -29,6 +33,9 @@ const lateCheck = () => {
           <td>21202</td>
           <td>김영훈</td>
           <td>
+              <input type="radio" name="late_02" />
+          </td>
+          <td>
             <input type="radio" name="late_02" />
           </td>
           <td>
@@ -38,6 +45,9 @@ const lateCheck = () => {
         <tr>
           <td>21203</td>
           <td>김우빈</td>
+          <td>
+              <input type="radio" name="late_03" />
+          </td>
           <td>
             <input type="radio" name="late_03" />
           </td>
@@ -49,6 +59,9 @@ const lateCheck = () => {
           <td>21204</td>
           <td>김현준</td>
           <td>
+              <input type="radio" name="late_04" />
+          </td>
+          <td>
             <input type="radio" name="late_04" />
           </td>
           <td>
@@ -59,6 +72,9 @@ const lateCheck = () => {
           <td>21205</td>
           <td>문서준</td>
           <td>
+              <input type="radio" name="late_05" />
+          </td>
+          <td>
             <input type="radio" name="late_05" />
           </td>
           <td>
@@ -67,10 +83,8 @@ const lateCheck = () => {
         </tr>
         {/* 확인, 취소 버튼 */}
         <tr>
-          <td colspan="2">
+          <td colspan="5">
             <input type="submit" value="확인" />
-          </td>
-          <td colspan="2">
             <input type="reset" value="취소" />
           </td>
         </tr>
