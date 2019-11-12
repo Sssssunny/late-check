@@ -311,6 +311,13 @@ module.exports = function(webpackEnv) {
         }),
         ...(modules.webpackAliases || {}),
       },
+      devServer: {
+        port: 3000,
+        open: true,
+        proxy: {
+            "/": "http://localhost"
+        }
+      },
       plugins: [
         // Adds support for installing with Plug'n'Play, leading to faster installs and adding
         // guards against forgotten dependencies and such.
