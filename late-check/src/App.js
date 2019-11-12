@@ -19,13 +19,13 @@ const App = () => {
           <nav>
             <ul>
               <li>
-                <Link className="link" to="/lateCheck">
-                  체크
+                <Link className="link" to="/">
+                  소개
                 </Link>
               </li>
               <li>
-                <Link className="link" to="/">
-                  소개
+                <Link className="link" to="/lateCheck">
+                  체크
                 </Link>
               </li>
               <li>
