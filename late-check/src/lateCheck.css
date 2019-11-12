@@ -26,3 +26,8 @@ table td, th {
     border: solid 1px black;
     width: 14%;
 }
+
+.button {
+    margin-left: 20px;
+    margin-right: 20px;
+}

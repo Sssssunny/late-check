@@ -84,8 +84,8 @@ const lateCheck = () => {
         {/* 확인, 취소 버튼 */}
         <tr>
           <td colspan="5">
-            <input type="submit" value="확인" />
-            <input type="reset" value="취소" />
+            <input type="submit" class="button" value="확인" />
+            <input type="reset" class="button" value="취소" />
           </td>
         </tr>
       </table>
