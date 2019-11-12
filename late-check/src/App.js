@@ -9,7 +9,7 @@ import lateRead from "./views/lateRead";
 const App = () => {
   return (
     <div>
-      <div class="layer" id="wapper">
+      <div class="layer" id="wapper" method="get">
         <span class="content">
           {/* 헤더 시작 */}
           <header>
